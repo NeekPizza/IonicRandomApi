@@ -1,0 +1,19 @@
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title text-capitalize>{{ User.title }} {{ User.firstName }} {{ User.lastName }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-card>
+    <ion-card-content text-center>
+      <img [src]="User.picture">
+      UserName: {{ User.userName }}
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
